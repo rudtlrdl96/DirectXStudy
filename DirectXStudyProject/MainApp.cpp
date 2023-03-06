@@ -1,6 +1,7 @@
 #include <Windows.h>
 #include <EngineBase/Float4.h>
 #include <EngineBase/Int2.h>
+#include <EngineBase/Int3.h>
 
 int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
 	_In_opt_ HINSTANCE hPrevInstance,
@@ -34,6 +35,18 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
 
 		Int2 v3 = v1 + v2;
 		Int2 v4 = v1 - v2;
+
+		int a = 2;
+	}
+
+	{
+		Int3 Test = { 3, 5, 2 };
+
+		Int3 v1 = { 1, 2, 4 };
+		Int3 v2 = { 1, 2, 2};
+
+		Int3 v3 = v1 + v2;
+		Int3 v4 = v1 - v2;
 
 		int a = 2;
 	}
