@@ -91,11 +91,11 @@ public:
 		return Clone;
 	}
 
-	Float4& operator-=(float _Scalar)
+	Float4& operator*=(float _Scalar)
 	{
-		this->X -= _Scalar;
-		this->Y -= _Scalar;
-		this->Z -= _Scalar;
+		this->X *= _Scalar;
+		this->Y *= _Scalar;
+		this->Z *= _Scalar;
 
 		return *this;
 	}
