@@ -2,7 +2,7 @@
 #include <math.h>
 #include <cmath>
 
-class Float4
+class Float4 final
 {
 public:
 	static const Float4 Zero;

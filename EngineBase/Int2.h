@@ -1,7 +1,7 @@
 #pragma once
 
 
-class Int2
+class Int2 final
 {
 public:
 	static const Int2 Zero;

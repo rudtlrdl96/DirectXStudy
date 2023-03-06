@@ -3,7 +3,7 @@
 #include "Int3.h"
 #include "Float4.h"
 
-class EngineMath
+class EngineMath final
 {
 public:
 	static const double PIE;
